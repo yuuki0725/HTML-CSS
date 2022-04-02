@@ -1,0 +1,426 @@
+body{
+    margin: 0;
+    padding: 0;
+  }
+  
+  @media screen and (min-width:768px){
+  .AllImg{
+    background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }}
+  
+  
+  @media screen and (max-width:767px){
+  .AllImg{
+    background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero-sp.jpg);
+    background-size: contain;
+    /*background-position: center;*/
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+  }}
+  /*.AllImg-sp{*/
+  /*  display:none;*/
+  /*}*/
+  
+  
+  /*body{*/
+  /*  background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero.jpg);*/
+  /*  background-size: cover;*/
+  /*  background-position: center;*/
+  /*  background-repeat: no-repeat;*/
+  /*}*/
+  
+  
+  
+  /*body　スマホサイズ画像*/
+  /*body{*/
+  /*}*/
+  
+  .HeaderBox{
+    display: flex;
+    justify-content:space-between;
+    padding: 20px 10px 0 10px;
+  }
+  
+  .HeaderLogo--pc{
+    margin: 10px 0 0 15px;
+    width:200px;
+    height: auto;
+  }
+  
+  .HeaderLogo--pfone{
+    display: none;
+     width: 120px;
+    height: auto;
+    margin: 10px;
+  }
+  
+  @media screen and (max-width:767px){
+  .HeaderLogo--pc{
+    display: none;
+  }
+  .HeaderLogo--pfone{
+   display: block;
+  }}
+  
+  /*ヘッダーメニュー*/
+  .HeaderMenu {
+    display: flex;
+    gap:30px;
+    list-style: none;
+    line-height: 0.7;
+    text-align: center;
+    align-items:center;
+  }
+  
+  .HeaderHumbergerMenu{
+    display:none;
+  }
+  
+  @media screen and (max-width:1080px){
+  .Header{
+    background-color: white;
+  }
+  .HeaderMenu{
+    display: none;
+  }
+  
+  .HeaderHumbergerMenu{
+    display:block;
+    text-align:right;
+    margin-bottom:10px;
+    cursor:pointer;
+  }
+  
+  .HeaderHumbergerMenu-line{
+    margin:0.5em 0px;
+  }
+  
+  .HeaderHumbergerMenu-line1{
+    /*left: 0;*/
+    height: 2px;
+    width: 30px;
+    background-color: black;
+    z-index:1;
+    /*border-radius: 2px;*/
+    /*display: inline-block;*/
+    /*box-sizing: border-box;*/
+  }
+  
+  .HeaderHumbergerMenu-line2{
+    /*left: 0;*/
+    height: 2px;
+    width: 30px;
+    background-color: black;
+    z-index:2;
+    /*border-radius: 2px;*/
+    /*display: inline-block;*/
+    /*box-sizing: border-box;*/
+  }
+  
+  .HeaderHumbergerMenu-line3{
+    /*left: 0;*/
+    height: 2px;
+    width: 30px;
+    background-color: black;
+    z-index:3;
+    /*border-radius: 2px;*/
+    /*display: inline-block;*/
+    /*box-sizing: border-box;*/
+  }}
+  
+  a{
+      text-decoration:none; 
+  }
+  
+  
+  /*ヘッダーリスト*/
+  .HeaderMenuLink{
+    font-size: 10px;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .HeaderMenu_japantext{
+    font-size: 5px;
+    font-weight: bold;
+  }
+  
+  .HeaderMenuBtnText{
+    font-size: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    white-space: nowrap;
+    
+  }
+  
+  .btn{
+    border-radius:38px;
+    background-color:#F79214;
+    padding: 10px;
+  }
+  
+  .AllBtn:hover{
+    opacity:0.5;
+  }
+  
+  
+  /*メインPC用*/
+  @media screen and (min-width:767px){
+  .Main{
+     width: fit-content;
+     margin: 70px 0 20px 100px;
+  }
+  
+  .MainText{
+    text-align: center;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+  }
+  
+  .MainText1{
+    font-size: 38px;
+  }
+  
+  .MainLogo{
+    display: flex;
+    gap:10px;
+    margin:10px 0 30px;
+  }
+  
+  .MainButton{
+    display: inline-block;
+  }
+  
+  .MainButton1{
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    white-space: nowrap;
+    border-radius:30px;
+    background-color:#F79214;
+    padding: 20px;
+    margin-right:10px;
+  }
+  
+  .MainButton2{
+    font-size: 15px;
+    font-weight: bold;
+    border:solid 0.5px;
+    color: black;
+    border-radius:30px;
+    background-color:white;
+    padding: 20px;
+  }
+  
+  .Remarks{
+    font-size: 10px;
+    color: gray;
+    margin: 100px 0 30px 100px;
+    width: fit-content;
+    display:inline-block;
+  }}
+  
+  /*メインスマホ用*/
+  @media screen and (max-width:768px){
+  .Main{
+     width: fit-content;
+     width:100%;
+  }
+  
+  .MainText{
+    text-align: center;
+    font-weight: bold;
+    margin: 200px 0 10px 0;
+  }
+  
+  .MainText1{
+    font-size: 5vw;
+  }
+  
+  .MainLogo_rihgt{
+    width:25%;
+  }
+  
+  .MainLogo_center{
+    width:40%;
+  }
+  
+  .MainLogo_left{
+    width:25%;
+  }
+  
+  
+  .MainLogo{
+    display: flex;
+    gap:10px;
+    width:100%;
+    margin:10px 10px 30px;
+  }
+  
+  
+  .MainButton{
+    display: flex;
+    flex-direction:column;
+    gap:5px;
+  }
+  
+  .MainButton1{
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    white-space: nowrap;
+    border-radius:30px;
+    background-color:#F79214;
+    padding: 20px;
+    margin:0px 10px 0px;
+    
+  }
+  
+  .MainButton2{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    border:solid 0.5px;
+    color: black;
+    border-radius:30px;
+    background-color:white;
+    padding: 20px;
+    margin:0px 10px 0px;
+  }
+  
+  .Remarks{
+    font-size: 10px;
+    color: gray;
+    width: 100%;
+    display:inline-block;
+    margin:0px 20px 0px;
+  }}
+  
+  
+  /*フッターPC*/
+  @media screen and (min-width:767px){
+  .Foorter{
+    background-color: #F79214;
+    color: white;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    gap:20%;
+    align-items:center;
+  }
+  
+  
+  .FooterText{
+    width: fit-content;
+    margin: 45px 0px 45px 100px;
+    /*文字を白くする*/
+  }
+  
+  
+  .FooterTextTitleMain{
+    font-weight: bold;
+    font-size: 40px;
+  }
+  
+  .FooterTextTitle{
+    font-weight:bold;
+    font-size: 30px;
+  }
+  
+  .FooterTextEssay{
+    overflow-wrap: break-word;
+  }
+  
+  .FoorterContent{
+    float: right;
+    margin-right: 100px;
+    text-align: center;
+    font-weight: bold;
+    white-space: nowrap;
+    border-radius:60px;
+    background-color:white;
+    padding: 15px 40px 15px; 
+    line-height:1;
+  }
+  
+  
+  .FoorterContentText{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 0.5px;
+    color:#F79214;
+    
+  }
+  
+  .FoorterContentTextJa{
+    font-size: 10px;
+  }}
+  
+  /*フッタースマホ*/
+  @media screen and (max-width:768px){
+  .Foorter{
+    background-color: #F79214;
+    color: white;
+    position: absolute;
+    width: 100%;
+    gap:20%;
+    align-items:center;
+    display: flex;
+    flex-direction:column;
+  }
+  
+  
+  .FooterText{
+    width: fit-content;
+    margin: 45px;
+    align-items:center;
+    /*文字を白くする*/
+  }
+  
+  
+  .FooterTextTitleMain{
+    font-weight: bold;
+    font-size: 40px;
+  }
+  
+  .FooterTextTitle{
+    font-weight:bold;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .FooterTextEssay{
+    overflow-wrap: break-word;
+    /*サイズが変更すると同時にサイズも調整*/
+  }
+  
+  .FoorterContent{
+    float: right;
+    text-align: center;
+    font-weight: bold;
+    white-space: nowrap;
+    border-radius:60px;
+    background-color:white;
+    padding: 15px 40px 15px; 
+    line-height:1;
+    margin: 10px;
+  }
+  
+  
+  .FoorterContentText{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 0.5px;
+    color:#F79214;
+    
+  }
+  
+  .FoorterContentTextJa{
+    font-size: 10px;
+  }}
